@@ -1,7 +1,7 @@
 # Requirements for Text Analysing App
 streamlit==1.38.0
 pandas==2.2.2
-spacy==3.6.1
+spacy==3.6.1 --only-binary=:all:
 neattext==0.1.3
 textblob==0.18.0.post0
 seaborn==0.13.2
@@ -10,5 +10,6 @@ wordcloud==1.9.3
 docx2txt==0.8
 PyPDF2==3.0.1
 pdfplumber==0.11.4
+
 
 
